@@ -13,6 +13,8 @@
 		DDA1D64426E79BFF0057FBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA1D64226E79BFF0057FBAE /* Main.storyboard */; };
 		DDA1D64626E79C030057FBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA1D64526E79C030057FBAE /* Assets.xcassets */; };
 		DDA1D64926E79C030057FBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA1D64726E79C030057FBAE /* LaunchScreen.storyboard */; };
+		DDA1D65326E7A40B0057FBAE /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1D65226E7A40B0057FBAE /* PersonCell.swift */; };
+		DDD988C226EE074200613D61 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD988C126EE074200613D61 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DDA1D64526E79C030057FBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDA1D64826E79C030057FBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDA1D64A26E79C030057FBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA1D65226E7A40B0057FBAE /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		DDD988C126EE074200613D61 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				DDA1D63C26E79BFF0057FBAE /* AppDelegate.swift */,
 				DDA1D63E26E79BFF0057FBAE /* SceneDelegate.swift */,
 				DDA1D64026E79BFF0057FBAE /* ViewController.swift */,
+				DDD988C126EE074200613D61 /* Person.swift */,
 				DDA1D64226E79BFF0057FBAE /* Main.storyboard */,
 				DDA1D64526E79C030057FBAE /* Assets.xcassets */,
 				DDA1D64726E79C030057FBAE /* LaunchScreen.storyboard */,
 				DDA1D64A26E79C030057FBAE /* Info.plist */,
+				DDA1D65226E7A40B0057FBAE /* PersonCell.swift */,
 			);
 			path = Project10;
 			sourceTree = "<group>";
@@ -93,6 +99,9 @@
 		DDA1D63126E79BFF0057FBAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -137,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD988C226EE074200613D61 /* Person.swift in Sources */,
 				DDA1D64126E79BFF0057FBAE /* ViewController.swift in Sources */,
 				DDA1D63D26E79BFF0057FBAE /* AppDelegate.swift in Sources */,
+				DDA1D65326E7A40B0057FBAE /* PersonCell.swift in Sources */,
 				DDA1D63F26E79BFF0057FBAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
